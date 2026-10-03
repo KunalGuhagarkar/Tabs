@@ -39,6 +39,10 @@ a:hover {
     border-radius: 15px;
 }
 
+a:active {
+    text-decoration: underline;
+}
+
 main {
     border: 1px solid black;
     height: 40vh;
