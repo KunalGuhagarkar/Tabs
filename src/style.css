@@ -22,7 +22,7 @@ ul {
     list-style: none;
 }
 
-li:hover {
+li > a:hover {
     background-color: black;
     color: white;
 }
