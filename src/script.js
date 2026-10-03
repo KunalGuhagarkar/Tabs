@@ -5,4 +5,6 @@ const navItems = document.getElementsByTagName('a');
 //     console.log(item.innerHTML)
 // })
 
-console.log(navItems[0])
+navItems.forEach(item => {
+    console.log(item.innerHTML);
+});
