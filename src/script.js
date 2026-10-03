@@ -6,9 +6,7 @@ const navItems = document.querySelectorAll('a');
 // })
 
 navItems.forEach(element => {
-    element.addEventListener('click', activeBtn);
+    element.addEventListener('click', () => {
+        element.className = 'active';
+    });
 });
-
-function activeBtn() {
-    console.log('Active');
-}
