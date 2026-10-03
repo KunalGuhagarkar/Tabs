@@ -18,7 +18,11 @@ nav {
 
 ul {
     display: flex;
+    justify-content: space-evenly;
     list-style: none;
+}
+
+li > a {
     text-decoration: none;
-    
+    color: black;
 }
