@@ -56,3 +56,12 @@ p {
     font-size: 1.5rem;
 }
 
+.custom-container {
+    background-color: aquamarine;
+    height: 10vh;
+    width: 80%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
