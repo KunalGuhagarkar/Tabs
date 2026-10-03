@@ -26,7 +26,7 @@ li {
     padding: 10px;
 }
 
-li:hover li > a:hover {
+li:hover ~ li > a:hover {
     background-color: black;
 }
 
@@ -36,6 +36,3 @@ li > a {
     font-size: 1.5rem;
 }
 
-li > a:hover {
-    color: white;
-}
