@@ -12,7 +12,7 @@ navItems.forEach(element => {
         console.log(element.classList);
     });
 
-    if (element.className === 'active') {
+    if (element.classList[0] === 'active') {
         console.log("Text");
     }
 
