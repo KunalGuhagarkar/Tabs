@@ -40,9 +40,10 @@ a:hover {
 }
 
 main {
+    border: 1px solid black;
     height: 40vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+    align-items: center;
 }
