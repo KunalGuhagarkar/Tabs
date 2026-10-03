@@ -1,5 +1,5 @@
 
-const navItems = document.getElementsByTagName('a');
+const navItems = document.querySelectorAll('a');
 
 // navItems.map(item => {
 //     console.log(item.innerHTML)
