@@ -39,7 +39,7 @@ a:hover {
     border-radius: 15px;
 }
 
-a:active {
+.active {
     text-decoration: underline;
 }
 
