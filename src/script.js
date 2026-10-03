@@ -3,6 +3,8 @@ const customContainer = document.getElementById("custom-container");
 
 navItems.forEach((element) => {
     element.addEventListener("click", (e) => {
+        e.preventDefault();
+
         navItems.forEach((element) => element.classList.remove("active"));
         element.classList.add("active");
 
