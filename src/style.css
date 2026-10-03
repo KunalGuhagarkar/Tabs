@@ -26,13 +26,13 @@ li {
     padding: 10px;
 }
 
-li:hover ~ li > a:hover {
+li:hover {
     background-color: black;
+    color: white;
 }
 
 li > a {
     text-decoration: none;
-    color: black;
     font-size: 1.5rem;
 }
 
