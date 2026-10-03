@@ -22,13 +22,13 @@ ul {
     list-style: none;
 }
 
-li > a:hover {
-    background-color: black;
-    color: white;
-}
-
 li > a {
     text-decoration: none;
     color: black;
     font-size: 1.5rem;
+}
+
+li > a:hover {
+    background-color: black;
+    color: white;
 }
