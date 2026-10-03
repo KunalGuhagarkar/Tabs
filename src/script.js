@@ -1,4 +1,6 @@
 
-const navItem = document.getElementsByTagName('a');
+const navItems = document.getElementsByTagName('a');
 
-console.log(navItem);
+navItems.map(item => {
+    console.log(item.innerHTML)
+})
