@@ -12,7 +12,7 @@ navItems.forEach((element) => {
 
         switch (element.id) {
             case "first-tab":
-                customContainer.innerHTML = "Text for first tab";
+                customContainer.innerHTML = "<h1>Text for First Tab</h1>";
                 break;
             case "second-tab":
                 customContainer.innerHTML = "Text for second tab";
