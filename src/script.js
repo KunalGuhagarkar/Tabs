@@ -1,4 +1,5 @@
 const navItems = document.querySelectorAll("a");
+const customContainer = document.getElementById("custom-container");
 
 // navItems.map(item => {
 //     console.log(item.innerHTML)
