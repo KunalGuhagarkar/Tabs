@@ -17,10 +17,10 @@ navItems.forEach((element) => {
             case "second-tab":
                 console.log("Text for second tab");
                 break;
-            case "second-tab":
+            case "third-tab":
                 console.log("Text for second tab");
                 break;
-            case "second-tab":
+            case "fourth-tab":
                 console.log("Text for second tab");
                 break;
             default:
