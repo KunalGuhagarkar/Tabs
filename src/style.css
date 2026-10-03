@@ -22,6 +22,11 @@ ul {
     list-style: none;
 }
 
+li:hover {
+    background-color: black;
+    color: white;
+}
+
 li > a {
     text-decoration: none;
     color: black;
