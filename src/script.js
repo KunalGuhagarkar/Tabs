@@ -15,13 +15,13 @@ navItems.forEach((element) => {
                 customContainer.innerHTML = "Text for first tab";
                 break;
             case "second-tab":
-                console.log("Text for second tab");
+                customContainer.innerHTML = "Text for second tab";
                 break;
             case "third-tab":
-                console.log("Text for second tab");
+                customContainer.innerHTML = "Text for third tab";
                 break;
             case "fourth-tab":
-                console.log("Text for second tab");
+                customContainer.innerHTML = "Text for fourth tab";
                 break;
             default:
                 break;
