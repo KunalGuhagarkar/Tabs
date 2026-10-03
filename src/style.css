@@ -38,3 +38,11 @@ a:hover {
     color: white;
     border-radius: 15px;
 }
+
+main {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
